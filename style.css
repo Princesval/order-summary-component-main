@@ -19,6 +19,7 @@
 body {
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     background-color: var(--Paleblue);
     display: flex;
     flex-direction: column;
@@ -143,6 +144,11 @@ footer a {
 }
 
 @media(max-width:425px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     main {
         max-width: 350px;
         margin-right: 20px;
